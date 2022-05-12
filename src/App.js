@@ -21,13 +21,13 @@ function App() {
       progress={progress}
       />
         <Routes>
-          <Route exact path="/" element={<News setprogress={setprogress} apiKey="f799144d5cae4ae4bc21219ffbd07861" country="in" category="general" />}></Route>
-          <Route exact path="/business" element={<News setprogress={setprogress} apiKey="f799144d5cae4ae4bc21219ffbd07861" country="in" category="business" />}></Route>
-          <Route exact path="/entertainment" element={<News setprogress={setprogress} apiKey="f799144d5cae4ae4bc21219ffbd07861" country="in" category="entertainment" />}></Route>
-          <Route exact path="/health" element={<News setprogress={setprogress} apiKey="f799144d5cae4ae4bc21219ffbd07861" country="in" category="health" />}></Route>
-          <Route exact path="/science" element={<News setprogress={setprogress} apiKey="f799144d5cae4ae4bc21219ffbd07861" country="in" category="science" />}></Route>
-          <Route exact path="/sports" element={<News setprogress={setprogress} apiKey="f799144d5cae4ae4bc21219ffbd07861" country="in" category="sports" />}></Route>
-          <Route exact path="/technology" element={<News setprogress={setprogress} apiKey="f799144d5cae4ae4bc21219ffbd07861" country="in" category="technology" />}></Route>
+          <Route exact path="/" element={<News setprogress={setprogress} apiKey="API KEY" country="in" category="general" />}></Route>
+          <Route exact path="/business" element={<News setprogress={setprogress} apiKey="API KEY" country="in" category="business" />}></Route>
+          <Route exact path="/entertainment" element={<News setprogress={setprogress} apiKey="API KEY" country="in" category="entertainment" />}></Route>
+          <Route exact path="/health" element={<News setprogress={setprogress} apiKey="API KEY" country="in" category="health" />}></Route>
+          <Route exact path="/science" element={<News setprogress={setprogress} apiKey="API KEY" country="in" category="science" />}></Route>
+          <Route exact path="/sports" element={<News setprogress={setprogress} apiKey="API KEY" country="in" category="sports" />}></Route>
+          <Route exact path="/technology" element={<News setprogress={setprogress} apiKey="API KEY" country="in" category="technology" />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
